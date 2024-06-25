@@ -20,3 +20,9 @@
 .page {
   background-image: url(../images/cover-image-dark.png);
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --display-rec_decoration: none;
+  }
+}
