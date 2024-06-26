@@ -6,7 +6,7 @@
   --title-decoration-color: #000028;
   --title-color: #ff0070;
   --hover-border-color: rgba(255, 0, 112, 0.4);
-  --font-family: 'IBM Plex Mono', monospace;
+  --font-family: 'IBM Plex Mono', sans-serif;
   --font-size: 18px;
   --line-height: 23.4px;
   --general-padding: 10px;

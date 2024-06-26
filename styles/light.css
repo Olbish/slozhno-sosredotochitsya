@@ -1,5 +1,6 @@
 @media (prefers-color-scheme: light) {
   :root {
+  --font-size: 18px;
   --background-color: #fff1f7;
   --accent-color: #ff8dcb;
   --menu-color: #353430;
@@ -14,6 +15,7 @@
   }
 }
 .page.theme_light {
+  --font-size: 18px;
   --background-color: #fff1f7;
   --accent-color: #ff8dcb;
   --menu-color: #353430;

@@ -127,6 +127,7 @@
 
 .main__section-title {
   color: var(--title-color, #ff0070);
+  font-size: var(--font-size, 18px);
 }
 
 .main__section-content {
@@ -139,6 +140,7 @@
   color: var(--title-decoration-color, #000028);
   background-color: var(--accent-color, #ff0070);
   font-weight: 700;
+  font-size: var(--font-size, 18px);
 }
 
 .regular {
@@ -285,7 +287,8 @@
 @media (width >= 1024px) {
   :root {
     --general-padding: 20px;
-    --main-padding-block: 20px
+    --main-padding-block: 20px;
+    --font-size: 18px;
   }
 
   .header {
