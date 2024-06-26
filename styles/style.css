@@ -1,3 +1,6 @@
+.main {
+  margin-block-start: 29px;
+}
 .page {
   color: var(--text-color, #f1b2ce);
   font-family: var(--font-family, 'IBM Plex Mono', monospace);
@@ -103,6 +106,7 @@
 .header__title {
   margin-block-start: var(--title-margin, 55px);
   max-inline-size: 364px;
+  margin-block-end: var(--title-margin, 55px);
 }
 
 .decorations {
@@ -227,25 +231,31 @@
   }
   
   .header {
-    grid-template-rows: auto;
+    grid-template-rows: 1fr min-content 1fr;
   }
 
   .decorations {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-inline-start: -20px;
   }
   
   .header__title {
-    margin-inline-start: 384px;
+    margin-block-start: 161px;
+    margin-inline-start: 363px;
   }
   
   .header__theme-menu {
     gap: 80px;
-    margin-block-start: 192px;
-    padding-block: 60px;
+    margin-block-start: 170px;
   }
   
   .main__section {
     grid-template-columns: 236px 1fr 1fr;
+    gap: 20px;
+  }
+
+  .main__section-title {
+    margin-block-start: 10px;
   }
 
   .reasons .main__section-content,
