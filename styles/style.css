@@ -336,7 +336,7 @@
   }
 
   .decorations {
-  margin-inline-start: -10px;
+  margin-inline-start: -20px;
   font-size: 157px;
   line-height: 129px;
   }
@@ -376,10 +376,6 @@
   .gallery-image:nth-of-type(2),
   .gallery-image:nth-of-type(3) {
     grid-row: span 2;
-  }
-
-  .decorations {
-    margin-inline-start: -20px;
   }
 
   .reasons {
