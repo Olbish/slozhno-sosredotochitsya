@@ -10,11 +10,13 @@
   --title-color: #353430;
   --hover-border-color: rgba(50,49,45, 0.4);
   --display-rec_decoration: none
-
+  
   }
+
   .page {
   background-image: url(../images/cover-image-light.png)
   }
+
 }
 .page.theme_light {
   --font-size: 18px;
@@ -29,4 +31,5 @@
   background-image: url(../images/cover-image-light.png);
   --hover-border-color: rgba(50,49,45, 0.4);
   --display-rec_decoration: none
+
 }
