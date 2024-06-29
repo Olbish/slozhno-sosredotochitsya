@@ -25,8 +25,8 @@
   display: var(--display-rec_decoration);
   align-items: center;
   gap: 10px;
-  text-transform: uppercase;
   color: var(--accent-color, #ff0070);
+  text-transform: uppercase;
   inset-block-start: var(--general-padding, 10px);
   inset-inline-end: calc(var(--general-padding, 10px) + 9px);
 }
@@ -34,8 +34,8 @@
 .rec_decoration::after {
   content: '';
   border-radius: 50%;
-  background-color: var(--accent-color, #ff0070);
   box-shadow: 0px 0px 4px 2px var(--accent-color, #ff0070);
+  background-color: var(--accent-color, #ff0070);
   block-size: 9px;
   inline-size: 9px;
 }
@@ -106,10 +106,10 @@
 }
 
 .header__title {
+  justify-self: end;
   margin-block-start: var(--title-margin, 55px);
   margin-block-end: var(--title-margin, 55px);
   max-inline-size: 364px;
-  justify-self: end;
 }
 
 .decorations {
@@ -190,8 +190,8 @@
 }
 
 .footer {
-  margin-block-start: 32px;
   display: grid;
+  margin-block-start: 32px;
   block-size: max(100vb, 668px);
 }
 
@@ -357,4 +357,3 @@
   }
 
 }
-
