@@ -75,7 +75,7 @@
 
 .header__theme-menu-list {
   display: grid;
-  gap: 12px;
+  gap: 13px;
 }
 
 .header__theme-menu-button {
@@ -196,12 +196,14 @@
 }
 
 .footer {
-  margin-block-start: 32px;
+  margin-block-start: 30px;
   display: grid;
   block-size: max(100vb, 668px);
 }
 
 .footer .decorations {
+  margin-block-start: 1px;
+  margin-inline-start: 1px;
   justify-self: center;
   align-self: center;
   font-weight: 700;
