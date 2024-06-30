@@ -102,7 +102,7 @@
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(currentColor, #ff0070);
+  outline: 1px solid currentColor;
   pointer-events: none;
 }
 
@@ -167,7 +167,7 @@
 }
 
 .card-text-link:hover {
-  border-bottom: 1px solid var(currentColor, #f1b2ce);
+  border-bottom: 1px solid currentColor;
 }
 
 .card-text-link:focus {
